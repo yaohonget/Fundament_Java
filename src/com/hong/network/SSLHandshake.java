@@ -66,8 +66,8 @@ class SSLConnector {
 
 	public static Object SYNC = new Object();
 
-	final private static String DEFAULT_PROTOCAL_NAME = "SSLv3";
-	final private static String DEFAULT_SERVER_HOST_NAME = "www.google.com";//"www.lhgnow.com.au";// "www.google.com";
+	final private static String DEFAULT_PROTOCAL_NAME = "TLSv1.2";
+	final private static String DEFAULT_SERVER_HOST_NAME = "www.google.com";
 	final private static int DEFAULT_SERVER_PORT_NUMBER = 443;
 
 	private String mProtocalName = "";
